@@ -1,0 +1,26 @@
+node_modules/
+.next/
+coverage/
+.DS_Store
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+firebase-applet-config.json
+
+# Serwist generated service worker
+public/sw.js
+public/sw.js.map
+
+# Cleanup scripts and temp files
+*.py
+build_log*.txt
+extracted_*.json
+temp_*.txt
+.dev-logs
+.vercel
+.playwright-mcp/
+.github/
+.agents/
+.aistudio/
+public/assets/aistudio/

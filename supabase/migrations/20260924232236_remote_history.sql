@@ -1,0 +1,3 @@
+-- Historical placeholder for a migration already recorded in production.
+-- The production schema backup was reviewed before adding this file.
+-- No executable SQL is intentionally repeated here.

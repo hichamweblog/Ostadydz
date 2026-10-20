@@ -1,0 +1,11 @@
+-- Intentionally empty: duplicate of 20260921071000_atomic_roster_import.sql.
+--
+-- Both files were byte-identical (md5 13fbe33d7427) and only the name/timestamp differed,
+-- which made it impossible to tell which one was authoritative and meant any future edit had
+-- to be applied twice. The authoritative definition lives in
+-- 20260921071000_atomic_roster_import.sql.
+--
+-- This file is kept as a no-op rather than deleted so that environments which already applied
+-- it keep a stable migration history (Supabase tracks applied versions by name).
+--
+-- See SYNC-REVIEW.md (hygiene findings) for the audit that found the pair.

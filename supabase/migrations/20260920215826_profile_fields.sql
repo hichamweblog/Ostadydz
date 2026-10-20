@@ -1,0 +1,16 @@
+alter table public.profiles
+  add column if not exists title text,
+  add column if not exists state_name text,
+  add column if not exists academic_year text,
+  add column if not exists hijri_year text,
+  add column if not exists first_name_ar text,
+  add column if not exists last_name_ar text,
+  add column if not exists first_name_en text,
+  add column if not exists last_name_en text,
+  add column if not exists email text,
+  add column if not exists first_appointment_date date,
+  add column if not exists experience_years integer,
+  add column if not exists birth_date date,
+  add column if not exists birth_place text,
+  add column if not exists family_status text,
+  add column if not exists gender text check (gender is null or gender in ('M', 'F'));
